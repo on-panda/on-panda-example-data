@@ -1,0 +1,98 @@
+{
+  "dialogs": {
+    "1": {
+      "messages": [
+        {
+          "role": "user",
+          "content": "Just reply 2 times, Using \"|\" as a separator:\n1;2;3;4;5;6;7;8;9;8;"
+        },
+        {
+          "role": "assistant",
+          "content": "1;2;3;4;5;6;7;8;9;8;|1;2;3;4;5;6;7;8;9;8;",
+          "finish_reason": "stop"
+        },
+        {
+          "role": "user",
+          "content": "Reply again"
+        },
+        {
+          "role": "assistant",
+          "content": "1;2;3;4;5;6;7;8;9;8;",
+          "finish_reason": "stop"
+        }
+      ],
+      "operations": [],
+      "annotate": {
+        "is_good": null
+      }
+    },
+    "2": {
+      "messages": [
+        {
+          "role": "user",
+          "content": "Just reply 2 times, Using \"|\" as a separator:\n1;2;3;4;5;6;7;8;9;8;"
+        },
+        {
+          "role": "assistant",
+          "content": "1;2;3;4;5;6;7;8;9;8;|1;2;3;4;5;6;7;8;9;8;",
+          "finish_reason": "stop"
+        },
+        {
+          "role": "user",
+          "content": "Reply again"
+        },
+        {
+          "content": "1;2;3;4;5;6;7;8;9;8;|1;2;3;4;5;6;7;8;9;8;",
+          "role": "assistant",
+          "finish_reason": "stop"
+        }
+      ],
+      "operations": [
+        {
+          "time": 1757572610520,
+          "parent": "1",
+          "chat_config": {
+            "model": "step1f-on-policy",
+            "max_tokens": 3072,
+            "temperature": 0.5
+          },
+          "is_prompt_modified": false,
+          "is_response_modified": true,
+          "response_modified_type": "bifurcation",
+          "common_prefix_length": 20,
+          "operator": "continue_with_input",
+          "on_policy": true,
+          "continue_with_input": {
+            "input_patch": ";|"
+          },
+          "rejected_token": {
+            "delta": {
+              "content": ";"
+            },
+            "tokenIndex": 19,
+            "logprobs": {
+              "content": [
+                {
+                  "token": ";"
+                }
+              ]
+            },
+            "finish_reason": "stop"
+          }
+        }
+      ],
+      "annotate": {
+        "is_good": null
+      }
+    }
+  },
+  "version": "2.0",
+  "uuid": "2025-09-11_17-08-20.223",
+  "hash_map": {},
+  "deleted_dialogs": {},
+  "update_time": 1757572618675,
+  "cache_tree": {
+    "compressed_type": "lz-string-base64",
+    "compressed": "N4IgjCBcoC4PYGsCmA7AzlA2qAJkgNjAIZSgDGcKMqMU4IANCAE5z5J1FpoCWaxVEAF8m8ZCgCSKPAA8oABib44AcwAOrAEYZoIClRpZYiVHQhCAukJG4CxUnsrVBkEAG5hok5OlI5kMCVVDThtB31nWkhsEDFTVw9LawZbQhJdCMNXACZPWO8pWShsoPUtHXInLJi4lDpcpJsQPDTwqpd3PNrCvygAZlKQsIz2qJrvOkSrJpb7EYMOvq6C338AFkHytoWx43E6JcaU5rt0yp3J5fEe/wBWTdCKxwvovfjOo9S588i6NavUDcoAA2B7DH7VN51Vz/T4nVrzX4JAE+IqQADsYKemRc432yLhszOzyRIFuKKBkAAHFjtki8e9yYTTnSsh8vNdVlAAJy0xGQ/L4j7TY5E1kdYEUrkBRQgZRlR7i3aC96S5kIiEdRIcwHSsCBOXBLb83FQy7q74ktnoqVosAlQ0K8FW00q6EgG0W4k4qLst2UsADR1DbGjIxu80ir7esOuKm23oBDbB42a5W1Ojxr1K8061GJsD3FOKk3piYEqPwy0+ujchP+MCg4vOmuvCOuOvZ0u5/16zHN0MvBnuqbJaM5uP1qBgGkDifDzPCSti7sEvMB3lz1cLisiEAAMx4KD4AAsAPrMJBcSh0fhwNRLve5XS1HQxFdpsyMFhsDiuLi8PwRCCHu3TSrK8ohvOZquOYVhMBoACuKBIDgUD7kQ+BoEgMwsqufpgXafKfm2Ga7ghzDIah6GYdhuEai6voNOu0oOpBqaMeGZEgA08EgEhKFoZAGFYThop4SRBErGiQbsSWJE7sKe4CdRwm0WJ474YcLFosmcktrGimHHxKlCSJdHiQxrZSZyaJFvpg70jBSkUVRZnqfR1axiAsI6YmTYOdB7Y+Y+rmCTRomeTGLw2bqaL9oF27OaOYWqeZGlVtFpJMn5/izolCnOUyJmUeFamRZZXkxdqvZopuBWcaR5YufxpVpR5lVZWyaq5dOEFGvJjWKWqJVuRFFmaZJNWEQWBoNa2ikpa1Y3lRNmUTh6U4BGxA0GUOzmeqNZXpVFG3TdJBaybtjkCtxS2meNGUfo1IBZr1SbEUNzlZkd7UVZNL3nbZBb2ddQV3aFy3HR1APWZ272Np9C3OZ2v3uf9634UDcUFglYNJcF91teja3PdZb21QW+X44VwU/cpxOPadWMAD5bWA9U019hNs2CUAALTckLSSpSTSBMJoPD7ohzBkEQMA8JQAAKcBHlEMCURlR5orKZPeeYSOGc5EB85A/PyAAdPI1vW2Aax9PItxgPIaxO2s2TolSfS3LcIuU/42TyE02uJrrEmA3k81G4T376QofszQHYDB+BTB6zFzFbrT3G5KbQd8YnxTZCnOtp+H1k1VH+0x3nCcXQHfQl6HZdWd52lZ9z3FLLXBf18UaxN/4Yet9Vkdc8jNfNvHvfAwHvvHCHQ8t1VpK+R3E/cf8PegX3kDZMCg8KMvXVamPTo3a6EPb+9HuH5Aw8r2yOXr9H3Hktf/vFFSd8PyfvqV+PV+zUPAf0LnvbkP9j4bR6i/au3FJSgN3g7SBmMppnyggTK+U97511nv0ZOC9U6oJep6Q2cDmo2kQXgyAfRi6ENLsQiu6COIb2AbHXa08d7UL6I3ehzdGHeQplXJydN2FOk4e9PoA8+FLwEaPPcwjbpsKoTjfw3sUHp1JPDWBIjuJ1hUfmNRB8ZFHzkaSAB59wbKOwfnLhqj+jog0eXQRzDBqsKFPGAxlI+jfxMffKBWNXF7V0dYuOZtLY2ztoGdE2RYnyGyGsO2wI1jAkcTPexNCIF+N/htIJF8yxCjEUMAWETrbAmyFSJ2sS+jlKpNyYE38+KHmPGgc8l5rzujvA+JgXSLxXjQDeAITtgTAiLGAtYsoAC2cAWi3moGoMA+5+aUH5moNgPAyAAE9vyITQEQFQf5QAhEmWoGAZ5XzTmyGMuAxB8DnO8DoJJTAKAnPYArSg9zxA6GyMnRoQA="
+  }
+}
