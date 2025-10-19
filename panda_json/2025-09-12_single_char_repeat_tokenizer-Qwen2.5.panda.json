@@ -1,0 +1,109 @@
+{
+  "dialogs": {
+    "1": {
+      "messages": [
+        {
+          "role": "system",
+          "content": ""
+        },
+        {
+          "role": "user",
+          "content": "just repeat 30 times `1`, no blank"
+        },
+        {
+          "role": "assistant",
+          "content": "11111111111111111111111111111111111111111111111111111111",
+          "finish_reason": "stop"
+        }
+      ],
+      "operations": [
+        {
+          "time": 1757678472857,
+          "parent": "1",
+          "is_prompt_modified": true,
+          "is_response_modified": false,
+          "response_modified_type": "no_response",
+          "common_prefix_length": -1,
+          "operator": "edit_prompt",
+          "on_policy": false
+        },
+        {
+          "time": 1757678476813,
+          "parent": "1",
+          "chat_config": {
+            "model": "step1f-on-policy",
+            "max_tokens": 3072,
+            "temperature": 0.5
+          },
+          "is_prompt_modified": false,
+          "is_response_modified": false,
+          "response_modified_type": "no_response",
+          "common_prefix_length": -1,
+          "operator": "generate_new",
+          "is_new_generated": true,
+          "on_policy": true
+        }
+      ]
+    },
+    "2": {
+      "messages": [
+        {
+          "role": "system",
+          "content": ""
+        },
+        {
+          "role": "user",
+          "content": "just repeat 30 times `1`, no blank"
+        },
+        {
+          "role": "assistant",
+          "content": "111111111111111111111111111111",
+          "finish_reason": "stop"
+        }
+      ],
+      "operations": [
+        {
+          "time": 1757678535463,
+          "parent": "1",
+          "chat_config": {
+            "model": "step1f-on-policy",
+            "max_tokens": 3072,
+            "temperature": 0.5
+          },
+          "is_prompt_modified": false,
+          "is_response_modified": true,
+          "response_modified_type": "bifurcation",
+          "common_prefix_length": 30,
+          "operator": "continue_with_chosen",
+          "on_policy": true,
+          "continue_with_chosen": {
+            "finish_reason": "stop"
+          },
+          "rejected_token": {
+            "delta": {
+              "content": "1"
+            },
+            "logprobs": {
+              "content": [
+                {
+                  "token": "1",
+                  "logprob": -0.3868744969367981
+                }
+              ]
+            },
+            "tokenIndex": 31
+          }
+        }
+      ]
+    }
+  },
+  "version": "2.0",
+  "uuid": "2025-09-12_20-01-08.359",
+  "hash_map": {},
+  "deleted_dialogs": {},
+  "update_time": 1757678543392,
+  "cache_tree": {
+    "compressed_type": "lz-string-base64",
+    "compressed": "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="
+  }
+}
