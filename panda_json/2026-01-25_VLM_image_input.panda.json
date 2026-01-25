@@ -1,0 +1,41 @@
+{
+  "dialogs": {
+    "1": {
+      "messages": [
+        {
+          "role": "system",
+          "content": ""
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image_url",
+              "image_url": {
+                "url": "https://docs.vllm.ai/en/latest/assets/logos/vllm-logo-text-light.png"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n\nIn the image above, what shape is the pattern that matches the color of the second image?  "
+            },
+            {
+              "type": "image_url",
+              "image_url": {
+                "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAaPAAAGjwHexX2lAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAA/dJREFUWIXtl01sG0UUx//jtb3r9TqO7aamTQktpagJFKlJU9QPwgFxCTlQiQ+piAullUiE1IaC2gNWo6qVoKoSDhBBG0WYLwlx6YFbC4lKldSRQqvYxCmpQxunUuIocexdr792h0MU43rttRNAFahP2sO8/7z3fjM7MztLKKV4kGZ4oNUfAvxdAELIAcbEegghzjUnoZSu6QHQZHI/tuB86VCKsTkurTWPscKRrgewG4Alz73HXFPLmZwbzDSbaSaEvJqnJQCMUErnyubW24aEEIbnhVMmju3YuXefUu105YDFWNyQkESjy/2IMjN1m6nb+kQaAGZksHfmY+bY2LBq5LjPxfDto5RSpVQN3RngBaGrcd9z735w7pMqluPKDYYHgE/9ImKLWdjTSWbe29VhVRQFwNGSgyw1A4QQd7XLFfT+PFRdQXEAQFqlODm0hIy63FbTSYQ9L6fkyL1HKaWRYjF6u2BX4/4WVFocAEJLSq44ABjMHOxP7zECaC4VowdgFWxVzEpDlkR0n3wPnrffRCj4m6Zz+I8Qeo8dgth/AooY/UtgeQMAoWIAQki9zWYLcxzXG49Gc/qP332NHY9vwRnPh7hwtkuTyHv+I5w+1o53WvdDvuzN+bPiEjiO67XZbNOEkO2FcZpFKAjCkePHOzf6xwK4GbyVWfFXOZyYGP4FNpsAu8OlAeDtTgz7RnA3PANYN+T88r0QaWtrczTU1zu6e3qOAOjUBTCZTFbeYiUsx0FVFLLif/HAK8hmM/h9dhbtXWc0AE1vvY/+C32ApQ7WlrwjQVXBsiwRBAFGo1HzKio6iACAGAxoff2NkvpUhoPQerjSdDn7Rz5GFMBENFO2XzHTzEAqlbrj8/kyd6enCWvh1GJBhRYWFcTTxc8TA2uhk5OTSjIp03Q6PaXRCx2JRKJ7YHDwYiAQuLJle0M6X7v0VT/Gb4xqikwsZkGVLMTRK1i8/M19Gl/3JPx+/08DA4NfSJLUUxirmQFKaQJAOyHkNYZh9uZr2556Bhc/PouknMCO5mfhXLceUjyGq/4Q5m6NwbJtJxwvHLwvH2GMkCSpTxTF7zXkxQD0rKGxCee//QGzM2EEb/6KhUgEG9dthdm1G5sPemDgrKtJVxZAkuLxomvAXbsJ7tpNAIDxhQzMAalkEppKqADEUrreLhgZvXYVKVnW6QIEo9mSmpqSEQsMKwB8qwaglM6pivrZuROdsh7EeAkANZ3E3JenwPFVfZTS+VLxZS8kdpfrtIEYOna1PM/Yqx1Mvp5SQa5HFLYwTpFiVAoMqbyrxrsQvHFY70KiC5AHUoPlKxlftvOyJQBc1xv5qgD+Tftv/xc8BPhfAPwJeTPTSjrlEYkAAAAASUVORK5CYII="
+              }
+            }
+          ],
+          "comment": "The first image is a URL; the second image is Base64."
+        }
+      ],
+      "operations": [],
+      "annotate": {}
+    }
+  },
+  "version": "2.0",
+  "uuid": "2026-01-25_13-50-11.137",
+  "hash_map": {},
+  "deleted_dialogs": {},
+  "update_time": 1769320393714
+}
