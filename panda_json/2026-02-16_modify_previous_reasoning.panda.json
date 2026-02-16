@@ -1,0 +1,84 @@
+{
+  "dialogs": {
+    "1": {
+      "messages": [
+        {
+          "role": "user",
+          "content": "List three types of fruits."
+        },
+        {
+          "role": "assistant",
+          "reasoning": "Okay, it seems straightforward. I will list apple, potato, and banana.",
+          "content": "Apple, potato, banana.",
+          "finish_reason": "stop"
+        },
+        {
+          "role": "user",
+          "content": "Potato is not fruit."
+        },
+        {
+          "role": "assistant",
+          "reasoning": "Okay, my previous response included 'potato' as a type of fruit, which is incorrect. The user pointed out this mistake, and I should correct my response.",
+          "content": "Thank you for pointing that out! A potato is actually a vegetable.\n\nHere are three correct examples of fruits:\n\nApple, banana, orange.",
+          "finish_reason": "stop"
+        }
+      ],
+      "operations": [
+        {
+          "parent": "1",
+          "chat_config": {
+            "model": "handmade-reasoning"
+          },
+          "is_prompt_modified": false,
+          "is_response_modified": false,
+          "response_modified_type": "no_response",
+          "common_prefix_length": -1,
+          "operator": "generate_new",
+          "is_new_generated": true,
+          "on_policy": true,
+          "message_index": -1
+        }
+      ]
+    },
+    "2": {
+      "messages": [
+        {
+          "role": "user",
+          "content": "List three types of fruits."
+        },
+        {
+          "role": "assistant",
+          "reasoning": "Okay, it seems straightforward. I will list apple, orange, and banana.",
+          "content": "Apple, orange, banana.",
+          "finish_reason": "stop"
+        }
+      ],
+      "operations": [
+        {
+          "parent": "1",
+          "chat_config": {
+            "model": "handmade-reasoning"
+          },
+          "is_prompt_modified": false,
+          "is_response_modified": true,
+          "response_modified_type": "bifurcation",
+          "operator": "continue_with_chosen",
+          "on_policy": true,
+          "continue_with_chosen": {
+            "token": " orange"
+          },
+          "rejected_token": {
+            "delta": {
+              "content": " potato"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "version": "2.0",
+  "uuid": "2026-02-16_21-18-39.746",
+  "hash_map": {},
+  "deleted_dialogs": {},
+  "update_time": 1771248215411
+}
