@@ -22,7 +22,7 @@
               "index": 0,
               "function": {
                 "name": "run_browser_js",
-                "arguments": "{\"code\":\"await fetch('https://raw.githubusercontent.com/on-panda/browser-agent-skills/main/skills/cors-internet/SKILL.md').then(res => res.text()).then(console.log)\"}"
+                "arguments": "{\"code\": \"await fetch('https://raw.githubusercontent.com/on-panda/browser-agent-skills/main/skills/cors-internet/SKILL.md').then(res => res.text()).then(console.log)\"}"
               }
             }
           ]
@@ -112,7 +112,7 @@
               "index": 0,
               "function": {
                 "name": "run_browser_js",
-                "arguments": "{\"code\":\"await fetch('https://raw.githubusercontent.com/on-panda/browser-agent-skills/main/skills/cors-internet/SKILL.md').then(res => res.text()).then(console.log)\"}"
+                "arguments": "{\"code\": \"await fetch('https://raw.githubusercontent.com/on-panda/browser-agent-skills/main/skills/cors-internet/SKILL.md').then(res => res.text()).then(console.log)\"}"
               }
             }
           ],
@@ -226,7 +226,7 @@
               "index": 0,
               "function": {
                 "name": "run_browser_js",
-                "arguments": "{\"code\":\"await fetch('https://raw.githubusercontent.com/on-panda/browser-agent-skills/main/skills/cors-internet/SKILL.md').then(res => res.text()).then(console.log)\"}"
+                "arguments": "{\"code\": \"await fetch('https://raw.githubusercontent.com/on-panda/browser-agent-skills/main/skills/cors-internet/SKILL.md').then(res => res.text()).then(console.log)\"}"
               }
             }
           ],
@@ -452,7 +452,7 @@
               "index": 0,
               "function": {
                 "name": "run_browser_js",
-                "arguments": "{\"code\":\"await fetch('https://raw.githubusercontent.com/on-panda/browser-agent-skills/main/skills/cors-internet/SKILL.md').then(res => res.text()).then(console.log)\"}"
+                "arguments": "{\"code\": \"await fetch('https://raw.githubusercontent.com/on-panda/browser-agent-skills/main/skills/cors-internet/SKILL.md').then(res => res.text()).then(console.log)\"}"
               }
             }
           ],
@@ -679,7 +679,7 @@
               "index": 0,
               "function": {
                 "name": "run_browser_js",
-                "arguments": "{\"code\":\"await fetch('https://raw.githubusercontent.com/on-panda/browser-agent-skills/main/skills/cors-internet/SKILL.md').then(res => res.text()).then(console.log)\"}"
+                "arguments": "{\"code\": \"await fetch('https://raw.githubusercontent.com/on-panda/browser-agent-skills/main/skills/cors-internet/SKILL.md').then(res => res.text()).then(console.log)\"}"
               }
             }
           ],
@@ -829,7 +829,7 @@
               "index": 0,
               "function": {
                 "name": "run_browser_js",
-                "arguments": "{\"code\":\"await fetch('https://raw.githubusercontent.com/on-panda/browser-agent-skills/main/skills/cors-internet/SKILL.md').then(res => res.text()).then(console.log)\"}"
+                "arguments": "{\"code\": \"await fetch('https://raw.githubusercontent.com/on-panda/browser-agent-skills/main/skills/cors-internet/SKILL.md').then(res => res.text()).then(console.log)\"}"
               }
             }
           ],
@@ -1087,7 +1087,7 @@
               "index": 0,
               "function": {
                 "name": "run_browser_js",
-                "arguments": "{\"code\":\"await fetch('https://raw.githubusercontent.com/on-panda/browser-agent-skills/main/skills/cors-internet/SKILL.md').then(res => res.text()).then(console.log)\"}"
+                "arguments": "{\"code\": \"await fetch('https://raw.githubusercontent.com/on-panda/browser-agent-skills/main/skills/cors-internet/SKILL.md').then(res => res.text()).then(console.log)\"}"
               }
             }
           ],
@@ -1345,7 +1345,7 @@
               "index": 0,
               "function": {
                 "name": "run_browser_js",
-                "arguments": "{\"code\":\"await fetch('https://raw.githubusercontent.com/on-panda/browser-agent-skills/main/skills/cors-internet/SKILL.md').then(res => res.text()).then(console.log)\"}"
+                "arguments": "{\"code\": \"await fetch('https://raw.githubusercontent.com/on-panda/browser-agent-skills/main/skills/cors-internet/SKILL.md').then(res => res.text()).then(console.log)\"}"
               }
             }
           ],
@@ -1521,7 +1521,7 @@
               "index": 0,
               "function": {
                 "name": "run_browser_js",
-                "arguments": "{\"code\":\"await fetch('https://raw.githubusercontent.com/on-panda/browser-agent-skills/main/skills/cors-internet/SKILL.md').then(res => res.text()).then(console.log)\"}"
+                "arguments": "{\"code\": \"await fetch('https://raw.githubusercontent.com/on-panda/browser-agent-skills/main/skills/cors-internet/SKILL.md').then(res => res.text()).then(console.log)\"}"
               }
             }
           ],
@@ -1810,7 +1810,7 @@
               "index": 0,
               "function": {
                 "name": "run_browser_js",
-                "arguments": "{\"code\":\"await fetch('https://raw.githubusercontent.com/on-panda/browser-agent-skills/main/skills/cors-internet/SKILL.md').then(res => res.text()).then(console.log)\"}"
+                "arguments": "{\"code\": \"await fetch('https://raw.githubusercontent.com/on-panda/browser-agent-skills/main/skills/cors-internet/SKILL.md').then(res => res.text()).then(console.log)\"}"
               }
             }
           ],
@@ -2091,7 +2091,7 @@
               "index": 0,
               "function": {
                 "name": "run_browser_js",
-                "arguments": "{\"code\":\"await fetch('https://raw.githubusercontent.com/on-panda/browser-agent-skills/main/skills/cors-internet/SKILL.md').then(res => res.text()).then(console.log)\"}"
+                "arguments": "{\"code\": \"await fetch('https://raw.githubusercontent.com/on-panda/browser-agent-skills/main/skills/cors-internet/SKILL.md').then(res => res.text()).then(console.log)\"}"
               }
             }
           ],
